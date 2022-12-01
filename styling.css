@@ -1,12 +1,191 @@
-body {
-    background-color: hsl(229, 57%, 11%);
-    background-image: url('assets/bg-desktop.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center bottom;
-    background-size: contain;
+*{
+    font-family: 'Merriweather';
+}
+body
+{
     margin: 0;
-    height: 100vh;
-    width: 100%;
+}
+h2
+{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+header
+{
+    position: relative;
+    color: #66BFBF;
+    border-width: 300px;
+    background-color:#E4F9F5;
+
+}
+h1
+{
+    text-align: center;
+    font-family: 'Sacramento';
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.img-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hacker
+{
+    display: flex;
+    height: 200px;
+    border-radius: 50%;
+}
+h3
+{
+    font-family: 'Montserrat';
+    color:#66BFBF;
+}
+.dots
+{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color: lightcyan;
+}
+.center-text
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.text
+{
+    color: #40514E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
     
-  }
+}
+.info
+{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: left;
+    justify-content: left;
+
+}
+.content
+{
+    line-height: 2;   
+}
+.animatedgif
+{
+    width: 300px;
+    align-items: right;
+    justify-content: right;
+    
+}
+.animatedgif2
+{
+    width: 290px;
+    align-items: right;
+    justify-content: right;
+    
+}
+h4
+{
+    color:#66BFBF;
+    padding-top: 100px;
+}
+h5
+{
+    margin: 0;
+    font-size: large;
+    color: #11999E;
+}
+h6
+{
+    margin: 1%;
+    font-family: 'Montserrat';
+    font-size: larger;
+    color:#66BFBF;
+}
+h7
+{
+    color: #11999E;
+}
+.botText
+{
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #11999E;
+}
+bottomTexts
+{
+    display: flex;
+    flex-direction: row;
+    flex-direction: center;
+    justify-content: center;
+    gap: 15px;
+}
+bottom
+{
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    justify-content: center;
+    background-color:#66BFBF;
+    height: 150px;
+    
+}
+button
+{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.sortButton
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactButton
+{
+    width: 100px;
+    height: 70px;
+    color: white;
+    background-color: #11cdd4 ;
+    
+}
+.contactButton:hover
+{
+    background-color: #30e3cb;
+}
+.tag
+{
+    color: white;
+}
+.mountain
+{
+    position: relative;
+    left: 650px; 
+}
+.topCloud
+{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    
+}
+.botCloud
+{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
