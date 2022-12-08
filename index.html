@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet"  href="stylingFylo.css" >
   <meta charset="UTF-8">
-  <link rel="stylesheet"  href="styling.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
@@ -10,10 +10,66 @@
   <title>Fylo data storage component</title>
 </head>
 
+<body class="flexRow center">
+  <div class="firstBox">
+      <div class="flexCol padding-left gap">
+        <div class="logoLocation">
+          <img src="assets/logo.svg" class="logo"/>
+        </div>
+        <div class="flexRow">
+          <button>
+            <img src="assets/icon-document.svg">
+          </button>
+          <button>
+            <img src="assets/icon-folder.svg" >
+          </button>
+          <button>
+            <img src="assets/icon-upload.svg">
+            <!-- <form action="/action_page.php">
+              <input type="file" name="filename" id="file-upload"/>
+              <label for="file-upload">
+                <img src="assets/icon-upload.svg">
+              </label>
+            </form> -->
+          </button>
+        </div> 
+      </div>
+    </div>
+    <div class="secondBox">
+      
+      <div class="bubble">
+        <p class="bubbleText">
+          <b>185</b> GB Left
+        </p>
+      </div>
+      
+      <div class="flexCol padding-left-bar ">
+          
+        <div class="text">
+           <p>
+            You've used <b>815GB</b> of your storage
+          </p>
+        </div>
+        
+        <div class="container">
+            <div class="bar">
+              <div class="circle">
 
-<body>
+              </div>
+            </div>
+        </div>
+        <div class="flexGB">
+          <p>
+            0 GB
+          </p>
+          <p>
+            1000 GB
+          </p>
+        </div>
+      </div>
+    </div>
 
- <!-- 0 You’ve used 815 GB of your storage
+  <!-- You’ve used 815 GB of your storage
 
   185 GB Left
   
